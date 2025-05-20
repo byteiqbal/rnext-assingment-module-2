@@ -41,7 +41,7 @@ export default function OrderDeatils({
   onDeleteOrder,
   onDeliverOrder,
 }) {
-  const [filterStatus, setfilterStatus] = useState("all");
+  const [filterStatus, setfilterStatus] = useState("All");
 
   const totalOrders = orders.length;
   const pendingOrders = orders.filter(
